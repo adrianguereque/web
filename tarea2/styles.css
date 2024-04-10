@@ -1,0 +1,22 @@
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none; 
+    color: black; 
+}
+
+li a:hover {
+    color: blue;
+}
+
+.barra-navegacion > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+    
